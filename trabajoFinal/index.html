@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <div class="div-titulo">
+        <h1>REGISTRO DE COMPAÑIAS</h1>
+    </div>
+    
+    <div class="contenedor">
+
+        <div class="div-formulario">
+            <h2>Registrar</h2>
+
+            <form action="#" id="formulario">
+                <input type="text" id="nombre" placeholder="Ingresa un nombre">
+                <input type="text" id="plan" placeholder="Ingresar plan">
+                <input type="text" id="nombreComp" placeholder="Nombre de Compañia">
+                <input type="text" id="indust" placeholder="Industria">
+                <input type="tel" id="celular" placeholder="Ingrese un número de telefono">
+                <input type="text" id="estado" placeholder="Pais">
+                <input type="text" id="city" placeholder="Ciudad"> 
+                <input type="email" id="mail" placeholder="Ingresar Correo">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+
+        <div class="div-listado">
+            <h2>Listado de Compañias</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Plan</th>
+                        <th>Compañia</th>
+                        <th>Industria</th>
+                        <th>telefono</th>
+                        <th>Pais</th>
+                        <th>Ciudad</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+            <div class="div-empleados"></div>
+        </div>
+
+    </div>
+
+    <script src="javas.js"></script>
+</body>
+</html>

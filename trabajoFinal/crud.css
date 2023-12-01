@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #98d0f6, #ce81ef);
+    height: 100vh;
+    overflow:scroll;
+}
+
+a{
+  display:block;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#252525;
+  text-decoration:none;
+  background-color: #FFFFFF;
+
+}
+
+.div-titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .div-formulario {
+    width: 30%;
+    height: 500px;
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contenedor .div-formulario h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color:#FFFFFF;
+    background-color:#5158DD;
+    height:56px;
+    width: 200%;
+    padding:10px 40px 40px;
+    border-radius:20px 20px 0px 0px;
+}
+
+.contenedor .div-formulario form {
+    background-color:#FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    width: 200%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    display:block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 10px;
+    width:80%;
+    border: #121111;
+    border-radius: 20px;
+    height: 100px;
+    line-height: 40px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+    outline:#363232;
+    box-shadow: 3px 0px 30px rgba(60, 58, 58, 0.4);
+
+}
+
+/* ESTILOS LISTADO DE ALUMNOS */
+.contenedor .div-listado {
+    position: absolute;
+    top:180%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:900px;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+ 
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    color: #121111;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #0e0d0d;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    margin: 0 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color:#99CA9C;
+    font-family:fantasy;
+}
+
+.btn-eliminar {
+    background-color:#FF6464;
+    font-family: fantasy;
+}
+
+table,th,td{
+    margin:0 70px ;
+    padding: 0px 20px 20px;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+.div-empleados{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }

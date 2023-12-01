@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compañias</title>
+    <link rel="stylesheet" href="/vistaS.css">
+</head>
+<body>
+    <center><h1>COMPAÑIAS REGISTRADAS</h1></center> 
+   <center><input class="boton" type="button" value="IR AL REGISTRO" onclick="siguiente()"></center> 
+     
+   <div class="div-formulario">
+    <h2>FORMULARIO DEL PERSONAL</h2>
+    <div class="contenedor">
+
+        <div class="div-formulario">
+            <h2>Datos del Empleado</h2>
+
+            <form action="#" id="formulario">
+                <input type="text" id="nombreEmp" placeholder="Nombre del Empleado">
+                <select id="puestos" name="Puesto">
+                    <option value="Empleadx">Empleadx</option>
+                    <option value="Admin">Admin</option>
+                </select>    
+                <input type="text" id="documento" placeholder="DNI">
+                <input type="text" id="domici" placeholder="domicilio">
+                <input type="text" id="telef" placeholder="celular">
+                <br>
+                <label>Fecha de Nacimiento</label>
+                <input type="date" id="fechaNac" placeholder="nacimiento">
+                <br>
+                <label>Autorizacion</label>
+                <select id="tiene_licencia" name="Autorizacion">
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                 </select><br>
+
+                <button type="submit" id="Btnagregar">Agregar</button>
+            </form>
+        </div>
+
+        <div class="div-listado">
+            <h2>Lista de Empleado</h2>
+            <div class="div-empleados">
+                
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="vistaJS.js"></script>
+</html>
